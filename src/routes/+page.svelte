@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import data from '../data.js';
 </script>
 
@@ -17,7 +18,7 @@
 	<div class="section left-section">
 		<header>
 			<div style={`flex-grow: 1;`}>
-				<img src="logo.png" alt="Mike Dane - Voice Talent" style="width: 15rem" />
+				<img src="{base}/logo.png" alt="Mike Dane - Voice Talent" style="width: 15rem" />
 				<!-- <h1 id="heading">{data.heading}</h1>
 				<h2 id="sub-heading">{data.subheading}</h2> -->
 			</div>
